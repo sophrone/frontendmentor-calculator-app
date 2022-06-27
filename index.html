@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="container" data-theme="one">
+      <main>
+        <section class="top">
+          <div class="compound-toggle">
+            <h3 class="content-title">calc</h3>
+            <p class="content content-label">Theme</p>
+            <p class="content content-one">1</p>
+            <p class="content content-two">2</p>
+            <p class="content content-three">3</p>
+            <div class="wrapper">
+              <div class="toggle-radio">
+                <input
+                  type="radio"
+                  checked
+                  class="toggle-option"
+                  name="toggle-option"
+                  id="first-toggle"
+                />
+                <input
+                  type="radio"
+                  class="toggle-option"
+                  name="toggle-option"
+                  id="second-toggle"
+                />
+                <input
+                  type="radio"
+                  class="toggle-option"
+                  name="toggle-option"
+                  id="third-toggle"
+                />
+                <label for="first-toggle">F</label>
+                <label for="second-toggle">S</label>
+                <label for="third-toggle">T</label>
+                <div class="toggle-option-slider"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="middle">
+          <p class="display">0</p>
+        </section>
+        <section class="bottom">
+          <div class="compound-btns-container">
+            <div class="btns" id="btns-7">7</div>
+            <div class="btns" id="btns-8">8</div>
+            <div class="btns" id="btns-9">9</div>
+            <div class="btns" id="btns-del">DEL</div>
+            <div class="btns" id="btns-4">4</div>
+            <div class="btns" id="btns-5">5</div>
+            <div class="btns" id="btns-6">6</div>
+            <div class="btns" id="btns-add">+</div>
+            <div class="btns" id="btns-1">1</div>
+            <div class="btns" id="btns-2">2</div>
+            <div class="btns" id="btns-3">3</div>
+            <div class="btns" id="btns-subtract">-</div>
+            <div class="btns" id="btns-dot">.</div>
+            <div class="btns" id="btns-0">0</div>
+            <div class="btns" id="btns-divide">/</div>
+            <div class="btns" id="btns-multiply">x</div>
+            <div class="btns" id="btns-reset">RESET</div>
+            <div class="btns" id="btns-equal">=</div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="http://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Frontend Mentor</a
+      >.Coded by
+      <a
+        href="http://www.github.com/sophrone"
+        target="_blank"
+        rel="noopener noreferrer"
+        >sophrone</a
+      >.
+    </footer>
+  </body>
+</html>
