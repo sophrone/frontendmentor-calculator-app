@@ -147,11 +147,10 @@ main {
 
 .toggle-radio input[type="radio"] {
   display: none;
-  /*position: fixed;*/
 }
 
 .toggle-radio label {
-  color: rgba(255, 255, 255, 0); /* alpha 0; invisible */
+  color: rgba(255, 255, 255, 0); 
   z-index: 0;
   display: block;
   width: 20px;
@@ -164,8 +163,6 @@ main {
 }
 
 .toggle-option-slider {
-  /*display: none;*/
-  /*background: red;*/
   background: var(--t1-key-orange-background-toggle); 
   width: 20px;
   height: 20px;
