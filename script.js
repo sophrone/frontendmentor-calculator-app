@@ -8,7 +8,6 @@ document.body.addEventListener("change", function (e) {
     case "first-toggle":
       console.log("first");
       wrapperElement.setAttribute("data-theme", "one");
-
       break;
     case "second-toggle":
       console.log("second");
@@ -87,7 +86,6 @@ document.body.addEventListener("click", (e) => {
       }
 
       buffer.push("-");
-
       break;
     case "btns-multiply":
       if (last === "*" || last === "/" || last === "+" || last === "-") {
@@ -95,7 +93,6 @@ document.body.addEventListener("click", (e) => {
       }
 
       buffer.push("*");
-
       break;
 
     case "btns-del":
